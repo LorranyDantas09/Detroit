@@ -154,7 +154,7 @@ footer {
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   header {
     gap: 30px;                
     padding: 10px;
@@ -191,7 +191,7 @@ footer {
 }
 
 
-@media (max-width: 468px) {
+@media (max-width: 467px) {
   header {
     display: flex; 
     align-items: center;
@@ -263,6 +263,7 @@ footer {
   }
 
 }
+
 
 
 
