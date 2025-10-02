@@ -156,6 +156,8 @@ footer {
 
 @media (max-width: 767px) {
   header {
+    width: auto;
+    height: auto;
     gap: 30px;                
     padding: 10px;
     font-size: 16px;          
@@ -263,6 +265,7 @@ footer {
   }
 
 }
+
 
 
 
