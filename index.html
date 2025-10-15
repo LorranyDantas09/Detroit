@@ -1,180 +1,131 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Serviço Detroit</title>
+  <title>Assinaturas | Barber Detroit</title>
   <link rel="stylesheet" href="style.css">
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 
 <body>
+
   <header>
     <a href="html/home.html">HOME</a>
     <a href="html/aval.html">AVALIAÇÃO</a>
-    <a href="#" class="ativo">SERVIÇOS</a>
-    <img src="assets/cortado.jpeg" alt="">
+    <a href="html/serv.html">SERVIÇOS</a>
+    <img src="imagens/cortado.jpeg" alt="Logo Detroit">
     <a href="html/curso.html">CURSOS</a>
     <a href="html/agend.html">CONTATOS</a>
-    <a href="html/ass.html">ASSINATURA</a>
+    <a href="#" class="ativo">ASSINATURA</a>
   </header>
 
+  <main>
+    <section class="banner">
+      <img src="imagens/thumbnail_SAVE_20251015_135934.jpg" alt="Barbearia Detroit">
+      <div class="texto-banner">
+        <p>
+          Assine um dos nossos planos e garanta sempre cabelo e barba em dia, com descontos exclusivos e benefícios que
+          só quem é assinante tem.
+        </p>
+      </div>
+    </section>
 
+    <section class="planos">
+      <div class="card">
+        <h3>CORTE</h3>
+        <p class="preco">R$ 64,99</p>
+        <ul>
+          <li>Terça - Feira</li>
+          <li>Quarta - Feira</li>
+          <li>Quinta - Feira</li>
+        </ul>
+      </div>
 
-  <section class="tabela-servicos">
-    <table>
-      <thead>
-        <tr>
-          <th>SERVIÇOS</th>
-          <th>VALOR NORMAL</th>
-          <th>CLUB DETROIT</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>LAVAGEM CABELO</td>
-          <td>R$ 5,00</td>
-          <td>R$ 5,00</td>
-        </tr>
-        <tr>
-          <td>PEZINHO</td>
-          <td>R$ 10,00</td>
-          <td>R$ 9,00</td>
+      <div class="card">
+        <h3>CORTE</h3>
+        <p class="preco">R$ 74,99</p>
+        <ul>
+          <li>Sábado</li>
+          <li>Domingo</li>
+        </ul>
+      </div>
 
-        </tr>
-        <tr>
-          <td>MATIZAÇÃO</td>
-          <td>R$ 10,00</td>
-          <td>R$ 10,00</td>
-        </tr>
-        <tr>
-          <td>FREESTYLE (A PARTIR)</td>
-          <td>R$ 10,00</td>
-          <td>R$ 10,00</td>
-        </tr>
-        <tr>
-          <td>PREENCHIMENTO (BARBA)</td>
-          <td>R$ 15,00</td>
-          <td>R$ 15,00</td>
-        </tr>
-        <tr>
-          <td>TERAPIA CONE HINDU</td>
-          <td>R$ 18,00</td>
-          <td>R$ 18,00</td>
-        </tr>
-        <tr>
-          <td>ESCOVA (A PARTIR)</td>
-          <td>R$ 20,00</td>
-          <td>R$ 18,00</td>
-        </tr>
-        <tr>
-          <td>CORTE MÁQUINA/PENTE</td>
-          <td>R$ 20,00</td>
-          <td>R$ 18,00</td>
-        </tr>
-        <tr>
-          <td>SCALP'CLEAR</td>
-          <td>R$ 20,00</td>
-          <td>R$ 20,00</td>
-        </tr>
-        <tr>
-          <td>HIDRATAÇÃO BARBA</td>
-          <td>R$ 20,00</td>
-          <td>R$ 20,00</td>
-        </tr>
-        <tr>
-          <td>DEPILAÇÃO NASAL</td>
-          <td>R$ 20,00</td>
-          <td>R$ 20,00</td>
-        </tr>
-        <tr>
-          <td>DEPILAÇÃO ORELHA</td>
-          <td>R$ 20,00</td>
-          <td>R$ 20,00</td>
-        </tr>
-        <tr>
-          <td>A. AMERICANO</td>
-          <td>R$ 25,00</td>
-          <td>R$ 22,50</td>
-        </tr>
-        <tr>
-          <td>TERAPIA FACIAL</td>
-          <td>R$ 25,00</td>
-          <td>R$ 25,00</td>
-        </tr>
-        <tr>
-          <td>SELAGEM BARBA</td>
-          <td>R$ 25,00</td>
-          <td>R$ 25,00</td>
-        </tr>
-        <tr>
-          <td>HIDRATAÇÃO</td>
-          <td>R$ 25,00</td>
-          <td>R$ 25,00</td>
-        </tr>
-        <tr>
-          <td>CORTE MÁQUINA/TESOURA</td>
-          <td>R$ 25,00</td>
-          <td>R$ 25,00</td>
-        </tr>
+      <div class="card">
+        <h3>CORTE & BARBA</h3>
+        <p class="preco">R$ 124,99</p>
+        <ul>
+          <li>Terça - Feira</li>
+          <li>Quarta - Feira</li>
+          <li>Quinta - Feira</li>
+        </ul>
+      </div>
 
-        <tr>
-          <td>NAVALHADO</td>
-          <td>R$ 30,00</td>
-          <td>R$ 30,00</td>
-        </tr>
-        <tr>
-          <td>CORTE TESOURA</td>
-          <td>R$ 40,00</td>
-          <td>R$ 36,00</td>
-        </tr>
-        <tr>
-          <td>PIGMENTAÇÃO (CABELO A PARTIR)</td>
-          <td>R$ 40,00</td>
-          <td>R$ 40,00</td>
-        </tr>
-        <tr>
-          <td>SELAGEM</td>
-          <td>R$ 45,00</td>
-          <td>R$ 45,00</td>
-        </tr>
-        <tr>
-          <td>LUZES</td>
-          <td>R$ 80,00</td>
-          <td>R$ 80,00</td>
-        </tr>
-        <tr>
-          <td>PROGRESSIVA (A PARTIR)</td>
-          <td>R$ 90,00</td>
-          <td>R$ 81,00</td>
-        </tr>
-        <tr>
-          <td>PLATINADO</td>
-          <td>R$ 120,00</td>
-          <td>R$ 108,00</td>
-        </tr>
-      </tbody>
-    </table>
-  </section>
+      <div class="card">
+        <h3>CORTE & BARBA</h3>
+        <p class="preco">R$ 134,99</p>
+        <ul>
+          <li>Sábado</li>
+          <li>Domingo</li>
+          <li>Segunda - Feira</li>
+        </ul>
+      </div>
+    </section>
 
+    <section class="informacoes">
+      <h4><i class="fa-solid fa-circle-info"></i> Informações</h4>
+      <ul>
+        <li>As promoções do Club Detroit estão inclusas na assinatura</li>
+        <li>DESCONTOS EM OUTROS SERVIÇOS</li>
+        <li>Em caso de não comparecimento a assinatura será bloqueada por uma semana</li>
+        <li>Caso for avisado com 24Hs, o atendimento será remarcado sem gerar nenhuma alteração na assinatura</li>
+      </ul>
+    </section>
 
-
-  <div class="botao-container">
-    <a href="html/agend.html" class="botao-link">AGENDE AGORA</a>
-  </div>
-
-
-  <div class="alerta">
-    <img src="assets/ChatGPT Image 17 de set. de 2025, 14_59_52.png" alt="alerta" class="icone">
-    <span>OS DESCONTOS DO CLUBE DETROIT SÃO VÁLIDOS APENAS PARA ASSINANTES!</span>
-  </div>
-
+    <section class="pagamento">
+      <h4><i class="fa-regular fa-credit-card"></i> Formas de pagamento</h4>
+      <p>Cartão de crédito • Débito automático • Pix recorrente</p>
+      <button class="btn-assinar">Quero ser Assinante</button>
+    </section>
+  </main>
 
   <footer>
-    <p> BARBEARIA DETROIT 2025  
-    &copy; todos os direitos reservados</p>
+    <p> BARBEARIA DETROIT 2025
+      &copy; todos os direitos reservados</p>
   </footer>
 
+  
+    <div class="loading-overlay" id="loading">
+      <img src="imagens/cortado.jpeg" alt="Logo Barbearia Detroit">
+      <p>Processando sua assinatura...</p>
+    </div>
+  
+    <script>
+      const botaoAssinar = document.querySelector('.btn-assinar');
+      const loading = document.getElementById('loading');
+  
+      botaoAssinar.addEventListener('click', () => {
+        const confirmar = confirm("Deseja realmente se tornar um assinante do Clube Detroit?");
+  
+        if (confirmar) {
+          // Mostra o loading com o logo
+          loading.classList.add('ativo');
+  
+          // Espera 2 segundos e redireciona
+          setTimeout(() => {
+            window.location.href = "html/pagamento.html";
+          }, 2000);
+        } else {
+          alert("A assinatura foi cancelada.");
+        }
+      });
+    </script>
+  </body>
+  </html>
+  
 </body>
 
 </html>
