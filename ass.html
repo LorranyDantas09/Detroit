@@ -5,10 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Assinaturas | Barber Detroit</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="ass.css">
 
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  
 </head>
 
 <body>
@@ -16,8 +16,8 @@
   <header>
     <a href="html/home.html">HOME</a>
     <a href="html/aval.html">AVALIAÇÃO</a>
-    <a href="html/serv.html">SERVIÇOS</a>
-    <img src="imagens/cortado.jpeg" alt="Logo Detroit">
+    <a href="index.html">SERVIÇOS</a>
+    <img src="assets/cortado.jpeg" alt="Logo Detroit">
     <a href="html/curso.html">CURSOS</a>
     <a href="html/agend.html">CONTATOS</a>
     <a href="#" class="ativo">ASSINATURA</a>
@@ -25,7 +25,7 @@
 
   <main>
     <section class="banner">
-      <img src="imagens/thumbnail_SAVE_20251015_135934.jpg" alt="Barbearia Detroit">
+      <img src="/assets/thumbnail_SAVE_20251015_135934.jpg" alt="Barbearia Detroit">
       <div class="texto-banner">
         <p>
           Assine um dos nossos planos e garanta sempre cabelo e barba em dia, com descontos exclusivos e benefícios que
@@ -99,7 +99,7 @@
 
   
     <div class="loading-overlay" id="loading">
-      <img src="imagens/cortado.jpeg" alt="Logo Barbearia Detroit">
+      <img src="assets/cortado.jpeg" alt="Logo Barbearia Detroit">
       <p>Processando sua assinatura...</p>
     </div>
   
@@ -111,10 +111,10 @@
         const confirmar = confirm("Deseja realmente se tornar um assinante do Clube Detroit?");
   
         if (confirmar) {
-          // Mostra o loading com o logo
+          
           loading.classList.add('ativo');
   
-          // Espera 2 segundos e redireciona
+          
           setTimeout(() => {
             window.location.href = "html/pagamento.html";
           }, 2000);
